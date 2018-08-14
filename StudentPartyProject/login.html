@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="static/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/index.css">
+
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <from>
+        <!--下面是用户名输入框-->
+        <div class="panel panel-default panel-single">
+            <div class="panel-heading">
+                <h2 class="form-signin-heading">请登录</h2>
+            </div>
+            <div class="panel-body">
+                <!--<p id="error_2_" class="text-danger help-block">这个字段是必填项。</p>-->
+                <div class="input-group input-group-lg has-error" style="padding: 0px 15px 10px !important;">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                    <input id="userName" type="text" class="form-control" placeholder="用户名">
+
+                </div>
+                <i id="error_1_" class="text-danger help-block" style="padding-left: 10px;margin-top: -5px;">这个字段是必填项。</i>
+                <br>
+                <!--下面是密码输入框-->
+                <div class="input-group input-group-lg has-error" style="padding: 0px 15px 15px !important;">
+                    <span class="input-group-addon "> <span class="glyphicon glyphicon-lock"></span></span>
+                    <input id="passWord" type="text" class="form-control" placeholder="密码">
+                </div>
+                <i id="error_2_" class="text-danger help-block" style="padding-left: 10px;margin-top: -5px;">这个字段是必填项。</i>
+                <br>
+                <!--下面是登陆按钮,包括颜色控制-->
+                <button type="button" style="width:100%;" class="btn btn-primary btn-lg btn-block">登 录</button>
+
+                <div class="input-group" style="margin-top: 10px;padding: 0px 15px 15px !important;">
+                    <a>忘记了您的密码或用户？</a>
+                </div>
+            </div>
+        </div>
+    </from>
+</div>
+
+</div>
+
+
+</body>
+</html>
